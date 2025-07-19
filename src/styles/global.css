@@ -1,2 +1,16 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+
 @import "tailwindcss";
 @plugin '@tailwindcss/typography';
+
+@layer base {
+  html {
+    font-family: 'Public Sans', sans-serif;
+  }
+}
+
+.font-cal {
+  font-family: 'Cal Sans', sans-serif;
+}
